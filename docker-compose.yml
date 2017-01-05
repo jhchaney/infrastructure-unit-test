@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ntpd:
+    image: ntpd/ntpd:latest
+    ports:
+       - "123:123"
+    privileged: true
+
